@@ -1,0 +1,12 @@
+services:
+  covid-predictor:
+    build: .
+    container_name: covid-triage-predictor
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+      - ./batch_scripts:/app/batch_scripts
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    command: bash
