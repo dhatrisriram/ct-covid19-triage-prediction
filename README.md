@@ -1,4 +1,3 @@
-# ct-covid19-triage-prediction
 # CT-based Patient Triage of COVID-19: Radiomics Prediction of ICU Admission, Mechanical Ventilation, and Death
 
 ## Overview
